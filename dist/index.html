@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>Graph :: Canvas</title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/bundle.min.css">
+</head>
+<body class="main-body">
+
+
+	<div class="container">
+		<div class="chart-cover">
+			<canvas data-chart='{"Classical music": 10, "Alternative rock": 14, "Pop": 2, "Jazz": 12};' data-type="radial"data-color="#2a73d6"></canvas>
+		</div>
+		<div class="chart-cover">
+			<canvas data-chart='{"Classical music": 10, "Alternative rock": 14, "Pop": 2, "Jazz": 12};' data-type="linear"data-color="#2a73d6"></canvas>
+		</div>
+		<div class="chart-cover">
+			<canvas data-chart='{"Classical music": 10, "Alternative rock": 14, "Pop": 2, "Jazz": 12};' data-type="pie"data-color="#2a73d6"></canvas>
+		</div>
+	</div>
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+	<!-- script -->
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- timer -->
+	<script src="js/init/graph.js"></script>
+</body>
+</html>

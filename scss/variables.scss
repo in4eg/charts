@@ -1,0 +1,27 @@
+/*primary font*/
+$font: 'Open Sans', sans-serif;
+
+
+/*link*/
+$primary: #F28705;
+$danger: #E41A1A;
+$grey: #C4C4C4;
+
+$bold: 700;
+$semi: 600;
+
+
+@mixin placeholder($color){
+	&::-webkit-input-placeholder {
+		color: #{$color};
+	}
+	&:-moz-placeholder {
+		color: #{$color};
+	}
+	&::-moz-placeholder {
+		color: #{$color};
+	}
+	&:-ms-input-placeholder {
+		color: #{$color};
+	}
+}
