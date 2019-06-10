@@ -31,10 +31,6 @@ ChartGraph = function(element) {
 		"Fifth": 18
 	};
 
-	console.log(chartData)
-
-
-
 	this.drawGraph = function() {
 
 		switch (canvasType) {
